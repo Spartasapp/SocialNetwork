@@ -1,0 +1,29 @@
+.friend {
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: 40px 9fr;
+    grid-template-areas: 
+    'i n'
+    'i b'
+    'h h';
+    grid-gap: 10px;
+}
+.img {
+    grid-area: i;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}  
+.horizontLine {
+    grid-area: h;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(228, 222, 222);
+}
+.button {
+    grid-area: b;
+    width: 105px;
+}
+.nameUser {
+    grid-area: n; 
+}

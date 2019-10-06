@@ -1,0 +1,52 @@
+
+
+.dialog {
+    background-color: aquamarine;
+    display: grid;
+    justify-content: space-between;
+    grid-template-rows: 1fr;
+    grid-template-columns: 200px  1.6fr 1.6fr 0.2fr 5fr;
+    grid-template-areas: 
+    " u t b v n ";
+    margin-bottom: 5px;
+    
+  }
+  .user {
+    grid-area: u;
+    position: relative;
+    left: 70px;
+    vertical-align: center;
+    margin-right: 5px;
+    width: 150px;
+  }
+  .img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    grid-area: u;
+
+  }
+  
+  .userMessage {
+    grid-area: m;
+  }
+  
+  .verticalLine {
+    grid-area: v;
+    background-color: black;
+    width: 1px;
+    height: 100%;
+  }
+  .textarea {
+    grid-area: t;
+    width: 200px;
+    border: none;
+  }
+  .button {
+    grid-area: b;
+    width: 50px;
+    border: none;
+  }
+  .newText {
+    grid-area: n;
+  }

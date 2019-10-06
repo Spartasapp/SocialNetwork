@@ -1,0 +1,50 @@
+.nav {
+    background-color: rgb(22, 192, 184);
+    grid-area: n;
+    
+  
+  }
+  .sidebar {
+    line-height: 20px;
+  }
+
+  ul.sidebar li {
+    list-style-type: none;
+    
+  }
+  a {
+    text-decoration: none;
+  }
+  li:hover {
+    background-color: rgb(136, 42, 224,0.2) ;
+    width:  100px;
+    transition: 0.5s;
+  
+  }
+  a:hover {
+    /* border: 2px solid lightskyblue; */
+    
+    font-weight: 600;
+    /* color: rebeccapurple; */
+    transition: 0.5s;
+  
+  }
+  .activeLink {
+    color: white;
+    font-weight: 600;
+  }
+  .activeLinkfr {
+    color: white;
+    font-weight: 600;
+    margin-top: 50px;
+  }
+  .orderCircle {
+    display: flex;
+    margin-left: 10px;
+  }
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
