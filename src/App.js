@@ -17,7 +17,7 @@ function App(props) {
       <Header />
       <Nav />
       <div className="app-wrapper">
-      <Route path='/profile'  render={()=><ProfilePage  state={props.state.getState()} />}/>
+      <Route path='/profile/:userId?'  render={()=><ProfilePage  state={props.state.getState()} />}/>
       <Route path='/messages'  render={()=><DialogsPage state={props.state.dialogPage} dispatch={props.dispatch}/>}/>
       <Route path='/friends'  render={()=><Friends state={props.state}/>}/>
       <Route path='/friends'  render={()=><Friends state={props.state}/>}/>
